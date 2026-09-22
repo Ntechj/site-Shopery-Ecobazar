@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopery</title>
+
+                    <!--Police d'écriture-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+                <!--Les différents styles qui sont appliqués-->
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+    <!-- Grille temporaire -->
+
+    <div class="dev-grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>    
+
+    <header>
+                <!--Localisation + langue + connexion-->
+
+        <div class="header-info">        
+
+                <!--Localisation-->
+
+            <div class="store-location body-tiny-400">
+                <img src="images/symbole/Map Pin.svg" alt="">
+                <span>Store Location: Lincoln- 344, Illinois, Chicago, USA</span>
+            </div>
+
+                <!--Langue et connexion-->
+            
+                <div class="header-langue body-tiny-400">
+                    <span>ENG <span class="chevron">⌵</span></span>
+                    <span>USD <span class="chevron">⌵</span></span>
+                    <a href="#">Sign In</a>
+                    <span>/</span>
+                    <a href="#">Sign Up</a>
+                </div>
+            </div>       
+
+                <!--Logo barre de recherche favoris et panier-->
+
+        <div class="header-main">
+            <div class="container-top">
+
+                <!--Logo top-->
+
+                <img class="header-logo" src="images/logo/logo.svg" alt="Ecobazar">
+
+                <!--Barre de recherche-->
+
+                <div class="search-bar">
+                    <div class="search-input">   
+                        <img src="images/symbole/button-search-loupe.svg" alt="">
+                        <input type="text" placeholder="search">
+                    </div>    
+                        <button type="button">Search</button>
+                </div>
+
+                <!--favoris et panier-->
+
+                <div class="header-action">
+
+                    <!--favoris-->
+                    <img class="header-favoris" src="images/symbole/favoris-heart.svg" alt="">
+
+                    <!--séparateur-->
+                    <div class="header-separateur"></div>
+
+                    <!--panier-->
+                    <img class="header-panier" src="images/symbole/panier.svg" alt="">
+
+                    <!--panier-texte-->
+                    <div class="panier-texte">
+                        <span>Shopping cart:</span>
+                        <span>$57.00</span>
+                    </div>
+                </div>
+            </div>    
+        </div>        
+
+        <nav class="navigation body-small-500">
+            <div class="container">
+
+                <!-- liens de navigation -->
+
+                <a class="active" href="index.html">Home<span class="chevron">⌵</span></a>
+                <a href="shop.html">Shop<span class="chevron">⌵</span></a>
+                <a href="#">Pages<span class="chevron">⌵</span></a>
+                <a href="#">Blog<span class="chevron">⌵</span></a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+
+            </div>
+
+                <!--Contact-->
+
+            <div class="contact-header">
+                <img src="images/symbole/contact-phone.svg" alt="">
+                <span>(219) 555-0114</span>
+            </div>
+        </nav>    
+    </header>
+
+    <main>
+                <!-- Bannières principales top -->
+
+        <div class="bannieres">
+
+            <div class="banniere-principale">
+                <img src="images/bannar/big-bannar-header.png" alt="">
+            </div>
+
+            <div class="banniere-summer">
+                <img src="images/bannar/summer-sale.png" alt="">
+            </div>
+
+            <div class="banniere-deal">
+                <img src="images/bannar/best-deal-header.png" alt="">
+            </div>
+
+        </div>
+
+                <!-- Feature -->
+
+        <div class="feature-contenair">
+
+                <!-- Free Shipping -->
+            <div class="free-shipping">
+                <img src="images/Feature/free-shipping.svg" alt="">
+
+                <div class="feature-texte">
+                    <span class="body-medium-600 gray-900">Free Shipping</span>
+                    <p class="body-small-400 gray-400">Free shipping on all your order</p>
+                </div>
+            </div>
+
+                <!-- Customer Support -->
+            <div class="customer-support">
+                <img src="images/Feature/support.svg" alt="">
+
+                <div class="feature-texte">
+                    <span class="body-medium-600 gray-900">Customer Support 24/7</span>
+                    <p class="body-small-400 gray-400">Instant access to Support</p>
+                </div>
+            </div>
+
+                <!-- Secure Payment -->
+            <div class="secure-payment">
+                <img src="images/Feature/shopping-bag.svg" alt="">
+
+                <div class="feature-texte">
+                    <span class="body-medium-600 gray-900">100% Secure Payment</span>
+                    <p class="body-small-400 gray-400">We ensure your money is save</p>
+                </div>
+            </div>
+
+                <!-- Money Back Guarantee -->
+            <div class="money-guarantee">
+                <img src="images/Feature/carton.svg" alt="">
+
+                <div class="feature-texte">
+                    <span class="body-medium-600 gray-900">Money-Back Guarantee</span>
+                    <p class="body-small-400 gray-400">30 Days Money-Back Guarantee</p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
