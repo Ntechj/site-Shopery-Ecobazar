@@ -13,6 +13,117 @@
     
 }
 
+/* Colors */
+
+/* Principales */
+.soft-primary {
+    color: var(--soft-primary);
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.hard-primary {
+    color: var(--hard-primary);
+}
+
+.warning {
+    color: var(--warning);
+}
+
+.danger {
+    color: var(--danger);
+}
+
+.white {
+    color: var(--white);
+}
+
+
+/* Gray */
+.gray-900 {
+    color: var(--gray-900);
+}
+
+.gray-800 {
+    color: var(--gray-800);
+}
+
+.gray-700 {
+    color: var(--gray-700);
+}
+
+.gray-600 {
+    color: var(--gray-600);
+}
+
+.gray-500 {
+    color: var(--gray-500);
+}
+
+.gray-400 {
+    color: var(--gray-400);
+}
+
+.gray-300 {
+    color: var(--gray-300);
+}
+
+.gray-200 {
+    color: var(--gray-200);
+}
+
+.gray-100 {
+    color: var(--gray-100);
+}
+
+.gray-50 {
+    color: var(--gray-50);
+}
+
+
+/* Green Gray */
+.green-gray-900 {
+    color: var(--green-gray-900);
+}
+
+.green-gray-800 {
+    color: var(--green-gray-800);
+}
+
+.green-gray-700 {
+    color: var(--green-gray-700);
+}
+
+.green-gray-600 {
+    color: var(--green-gray-600);
+}
+
+.green-gray-500 {
+    color: var(--green-gray-500);
+}
+
+.green-gray-400 {
+    color: var(--green-gray-400);
+}
+
+.green-gray-300 {
+    color: var(--green-gray-300);
+}
+
+.green-gray-200 {
+    color: var(--green-gray-200);
+}
+
+.green-gray-100 {
+    color: var(--green-gray-100);
+}
+
+.green-gray-50 {
+    color: var(--green-gray-50);
+}
+
 .dev-grid div {
     background-color: #DAE5DA;
     opacity: 0.2;
@@ -189,4 +300,55 @@
 
 .feature-texte p {
     margin: 0;
+}
+
+/*Contenair subscribe*/
+.contenair-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 40% auto 0;
+}
+
+/*Barre de recherche*/
+.subscribe-bar {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+}
+
+.subscribe-input input {
+    width: 400px;
+    height: 52px;
+    box-sizing: border-box;
+    border: 1px solid var(--gray-100);
+    border-radius: 26px;
+    padding-left: 24px;
+    outline: none;
+    padding-right: 24px;
+}
+
+.subscribe-bar button {
+    width: 162px;
+    height: 52px;
+    border: none;
+    border-radius: 26px;
+    background-color: var(--primary);
+    color: var(--white);
+    margin-left: -50px;
+}
+
+/*Résaux sociaux*/
+.newsletter-social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/*Bandeau noir + information du site footer*/
+.footer-main {
+    background-color: #333333;
+    height: 368px;
+    margin-top: 42px;
 }
