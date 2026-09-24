@@ -351,7 +351,7 @@
     align-items: center;
     justify-content: space-between;
     max-width: 1320px;
-    margin: 40% auto 0;
+    margin: 24px auto 0;
 }
 /*__________________________________________________________*/
 
@@ -530,4 +530,71 @@
     border-top: 1px solid var(--gray-600);
     margin-top: 24px;
     margin-bottom: 24px;
+}
+/*__________________________________________________________*/
+
+/*MAIN SHOPPING : étoile active*/
+
+/*----------------------------------------------------------*/
+
+.star-active {
+    color: var(--warning);
+}
+
+.star-empty {
+    color: var(--gray-200);
+}
+/*__________________________________________________________*/
+
+/*PANIER INTERACTIF AU SURVOL*/
+
+/*----------------------------------------------------------*/
+
+.product-cart {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--gray-50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.product-cart:hover {
+    background-color: var(--primary);
+}
+/*__________________________________________________________*/
+
+/*Grille POPULAR CATEGORIES*/
+
+/*----------------------------------------------------------*/
+.popular-categories {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    gap: 16px 24px;
+}
+
+.categories-card, span {
+    display: flex;
+    justify-content: center;
+}
+
+.main, h2 {
+    width: 1320px;
+    margin: 60px auto;
+}
+/*__________________________________________________________*/
+
+/*GRILLE POPULAR PRODUCTS*/
+
+/*----------------------------------------------------------*/
+.popular-products {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 264px);
 }
