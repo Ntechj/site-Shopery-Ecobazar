@@ -125,11 +125,14 @@
 }
 
 .dev-grid div {
-    background-color: #DAE5DA;
-    opacity: 0.2;
+    background-color: var(--soft-primary);
+    opacity: 0.1;
 }
+/*__________________________________________________________*/
 
 /* container prenant la largeur de la grille */
+
+/*----------------------------------------------------------*/
 .container {
     margin: 0 auto;
     max-width: 1320px;
@@ -139,39 +142,57 @@
     display: flex;
     gap: 32px;
 }
+/*__________________________________________________________*/
 
 /* Espacement entre la nav et les chevrons */
+
+/*----------------------------------------------------------*/
 .chevron {
     display: inline-block;
     width: 16px;
     height: 16px;
     margin-left: 4px;
 }
+/*__________________________________________________________*/
 
 /* Bandeau noir Header */
+
+/*----------------------------------------------------------*/
 .navigation {
     background-color: #333333;
     height: 60px;
 }
+/*__________________________________________________________*/
 
 /* Couleur Text nav */
+
+/*----------------------------------------------------------*/
 .navigation a {
     color: var(--gray-400)
 }
+/*__________________________________________________________*/
 
 /* Couleur text de la page active */
+
+/*----------------------------------------------------------*/
 .navigation a.active {
     color: var(--white);
 }
+/*__________________________________________________________*/
 
 /* Localisation header */
+
+/*----------------------------------------------------------*/
 .store-location {
     display: flex;
     align-items: center;
     gap: 8px;
 }
+/*__________________________________________________________*/
 
 /* Barre de recherche Header*/
+
+/*----------------------------------------------------------*/
 .search-bar {
     display: flex;
 }
@@ -200,8 +221,11 @@
     color: var(--white);
     border-radius: 0 6px 6px 0;
 }
+/*__________________________________________________________*/
 
 /* Barre de recherche + favoris + panier Header*/
+
+/*----------------------------------------------------------*/
 .container-top {
     margin: 0 auto;
     max-width: 1320px;
@@ -227,7 +251,11 @@
     display: flex;
     flex-direction: column;
 }
+/*__________________________________________________________*/
 
+/*Séparateur vertical entre favoris et pannier*/
+
+/*----------------------------------------------------------*/
 .header-separateur {
     width: 1px;
     height: 24px;
@@ -235,8 +263,11 @@
     margin-left: 16px;
     margin-right: 20px;
 }
+/*__________________________________________________________*/
 
 /* Contact Header */
+
+/*----------------------------------------------------------*/
 .contact-header {
     display: flex;
     justify-content: flex-end;
@@ -245,8 +276,11 @@
     color: var(--white);
     gap: 12px;
 }
+/*__________________________________________________________*/
 
 /*Langue et connexion*/
+
+/*----------------------------------------------------------*/
 .header-info {
     max-width: 1320px;
     margin: 0 auto;
@@ -254,8 +288,11 @@
     align-items: center;
     justify-content: space-between;
 }
+/*__________________________________________________________*/
 
 /*Banière top*/
+
+/*----------------------------------------------------------*/
 .bannieres {
     max-width: 1320px;
     margin: 24px auto 0;
@@ -269,8 +306,11 @@
 .banniere-principale {
     grid-row: 1 / 3;
 }
+/*__________________________________________________________*/
 
 /*Feature top*/
+
+/*----------------------------------------------------------*/
 .feature-contenair {
     display: flex;
     max-width: 1320px;
@@ -301,8 +341,11 @@
 .feature-texte p {
     margin: 0;
 }
+/*__________________________________________________________*/
 
 /*Contenair subscribe*/
+
+/*----------------------------------------------------------*/
 .contenair-subscribe {
     display: flex;
     align-items: center;
@@ -310,14 +353,21 @@
     max-width: 1320px;
     margin: 40% auto 0;
 }
+/*__________________________________________________________*/
 
 /*Barre de recherche*/
+
+/*----------------------------------------------------------*/
 .subscribe-bar {
     display: flex;
     align-items: center;
     padding-right: 24px;
 }
+/*__________________________________________________________*/
 
+/*Bordure de la barre subscribe*/
+
+/*----------------------------------------------------------*/
 .subscribe-input input {
     width: 400px;
     height: 52px;
@@ -328,7 +378,11 @@
     outline: none;
     padding-right: 24px;
 }
+/*__________________________________________________________*/
 
+/*Boutton Subscribe*/
+
+/*----------------------------------------------------------*/
 .subscribe-bar button {
     width: 162px;
     height: 52px;
@@ -338,15 +392,26 @@
     color: var(--white);
     margin-left: -50px;
 }
+/*__________________________________________________________*/
 
 /*Résaux sociaux*/
+
+/*----------------------------------------------------------*/
 .newsletter-social {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
+/*__________________________________________________________*/
+
 /*Bandeau noir + information du site footer*/
+
+/*----------------------------------------------------------*/
+
+/*Bandeau noir*/
+
+/*----------------------------------------------------------*/
 .footer-main {
     background-color: #333333;
     max-height: 368px;
@@ -355,6 +420,11 @@
     margin: 0 auto;
 }
 
+/*__________________________________________________________*/
+
+/*Contact Footer Mail et téléphone*/
+
+/*----------------------------------------------------------*/
 .contact-footer {
     display: flex;
     gap: 16px;   
@@ -362,61 +432,102 @@
 
 .phone-footer {
     font-family: var(--body-small-500);
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 6px;
 }
 
 .email-footer {
     font-family: var(--body-small-500);
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 6px;
 }
+/*__________________________________________________________*/
 
+/*Paragraphe en latin Footer*/
+
+/*----------------------------------------------------------*/
 .footer-main p {
-   width: 336px;
+   width: 400px;
    font-family: var(--body-small-400); 
 }
+/*__________________________________________________________*/
 
+/*Information List Footer*/
+
+/*----------------------------------------------------------*/
 .information-footer ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-top: 26px;
+    margin-top: 24px;
     font-family: var(--body-small-400);
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 24px;
 }
 
 .information-footer {
     display: flex;
-    gap: 120px;
+}
+
+.list-account, .list-helps, .list-proxy, .list-categories {
+    width: 224px;
 }
 
 .information-footer span {
     font-family: var(--body-medium-500);
 }
+/*__________________________________________________________*/
 
+/*Contenair footer du (Logo) jusqu'à (ligne de séparation)*/
+
+/*----------------------------------------------------------*/
 .footer-content {
     display: flex;
     align-items: flex-start;
 }
+/*__________________________________________________________*/
 
+/*Information List ul*/
+
+/*----------------------------------------------------------*/
 .information-footer {
-    margin-top: 68px;
-    margin-left: 112px;
+    margin-top: 65px;
+    margin-left: 50px;
 }
+/*----------------------------------------------------------*/
 
+/*Block div Logo + contact email + téléphone*/
+
+/*__________________________________________________________*/
 .footer-about {
     display: flex;
     flex-direction: column;
-    margin-top: 65px;
+    margin-top: 50px;
+    gap: 16px;
 }
 
+.footer-about img {
+    width: 183px;
+    height: 38px;
+}
+/*__________________________________________________________*/
+
+/*Copyright et moyen de Paiement footer*/
+
+/*----------------------------------------------------------*/
 .copy-payments {
     display: flex;
     justify-content: space-between;
     font-family: var(--body-small-400);
 }
+/*__________________________________________________________*/
 
+/*Ligne de séparation Footer*/
 
+/*----------------------------------------------------------*/
 .ligne-separation {
     border-top: 1px solid var(--gray-600);
+    margin-top: 24px;
     margin-bottom: 24px;
 }
