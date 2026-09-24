@@ -349,6 +349,74 @@
 /*Bandeau noir + information du site footer*/
 .footer-main {
     background-color: #333333;
-    height: 368px;
+    max-height: 368px;
     margin-top: 42px;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.contact-footer {
+    display: flex;
+    gap: 16px;   
+}
+
+.phone-footer {
+    font-family: var(--body-small-500);
+}
+
+.email-footer {
+    font-family: var(--body-small-500);
+}
+
+.footer-main p {
+   width: 336px;
+   font-family: var(--body-small-400); 
+}
+
+.information-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 26px;
+    font-family: var(--body-small-400);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.information-footer {
+    display: flex;
+    gap: 120px;
+}
+
+.information-footer span {
+    font-family: var(--body-medium-500);
+}
+
+.footer-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.information-footer {
+    margin-top: 68px;
+    margin-left: 112px;
+}
+
+.footer-about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+}
+
+.copy-payments {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--body-small-400);
+}
+
+
+.ligne-separation {
+    border-top: 1px solid var(--gray-600);
+    margin-bottom: 24px;
 }
